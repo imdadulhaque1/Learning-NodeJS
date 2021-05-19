@@ -20,6 +20,6 @@
 const path = require('path');
 
 //-----> dirname
-console.log('Folder Name: ' + path.dirname(__filename));
+console.log('Folder Name: ' + path.basename(__filename)); 
 
 
