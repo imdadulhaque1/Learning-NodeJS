@@ -1,0 +1,21 @@
+{
+  "name": "learning-nodejs",
+  "version": "1.0.0",
+  "description": "This is NodeJS crush course with the help of CodeGyan youtube channel!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JavaScript",
+    "NodeJS"
+  ],
+  "author": "Imdadul Haque <imdadul15-1440@diu.edu.bd>",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
