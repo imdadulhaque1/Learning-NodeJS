@@ -11,9 +11,15 @@
 
 
 // Local Module
-const auth = require(`./auth`);
+// const auth = require(`./auth`);
+// auth.register('Imdadul Haque');
+// auth.login('Imdadul Haque','123456');
 
-auth.register('Imdadul Haque');
-auth.login('Imdadul Haque','123456');
+
+// Core Module
+const path = require('path');
+
+//-----> dirname
+console.log('Folder Name: ' + path.dirname(__filename));
 
 
