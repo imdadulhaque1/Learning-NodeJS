@@ -31,5 +31,16 @@ const path = require('path');
 //-----> parse
 // console.log('Parse: ' + path.parse(__filename)); 
 
-//-----> parse
+//-----> Join
 // console.log('Join: ' + path.join(__filename)); 
+
+const fs = require('fs');
+
+//Make a directory for  making  folders
+fs.mkdir(path.join(__dirname, '/test'), (err) =>{
+          if(err){
+                    console.log(err);
+                    return;
+          }
+          console.log("Folder Created.............!");
+})
