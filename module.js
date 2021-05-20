@@ -44,3 +44,12 @@ fs.mkdir(path.join(__dirname, '/test'), (err) =>{
           }
           console.log("Folder Created.............!");
 })
+
+//Creating files
+fs.writeFile(path.join(__dirname, 'test', 'test.txt'), 'Hello NodeJS', (err) =>{
+          if(err){
+                    throw err;
+          }
+          console.log("File Created.............!");
+})
+
