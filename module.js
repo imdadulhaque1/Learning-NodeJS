@@ -14,12 +14,22 @@
 // const auth = require(`./auth`);
 // auth.register('Imdadul Haque');
 // auth.login('Imdadul Haque','123456');
-
+ 
 
 // Core Module
 const path = require('path');
 
 //-----> dirname
-console.log('Folder Name: ' + path.basename(__filename)); 
+// console.log('Folder Name: ' + path.dirname(__filename)); 
 
+//-----> File Name
+// console.log('File Name: ' + path.basename(__filename)); 
 
+// //-----> Extension Name
+// console.log('Extension Name: ' + path.extname(__filename)); 
+
+//-----> parse
+// console.log('Parse: ' + path.parse(__filename)); 
+
+//-----> parse
+// console.log('Join: ' + path.join(__filename)); 
