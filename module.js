@@ -50,6 +50,16 @@ fs.writeFile(path.join(__dirname, 'test', 'test.txt'), 'Hello NodeJS', (err) =>{
           if(err){
                     throw err;
           }
+          //Adding Text into crerated files
+          fs.appendFile(path.join(__dirname, 'test', 'test.txt'), '\nMore data added!', (err) =>{
+                    if(err){
+                              throw err;
+                    }
+                    console.log("Data added.............!");
+          })
           console.log("File Created.............!");
 })
+
+
+
 
